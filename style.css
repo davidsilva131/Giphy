@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bdc3c7;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #f39c12 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+#search{
+    width: 180px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+#btnSearch{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #e74c3c;
+    color: #ecf0f1 ;
+    font-weight: 400;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+}
+#container__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.card__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#recentSearchs, td,tr,th{
+    text-align: center;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+.recentSearchItem{
+    cursor: pointer;
+}
